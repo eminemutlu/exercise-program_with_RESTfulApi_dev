@@ -2,6 +2,7 @@
     include 'config/variables.php'; 
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
