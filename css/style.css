@@ -1,0 +1,281 @@
+
+
+body {
+	margin:0 auto;
+	padding:0;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+  background-color: rgba(51,51,51,.9);
+}
+
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px ;
+}
+
+.bg-light{ background-color: #fff !important;}
+
+.btn-primary,.btn-info{    
+    background-color: #fa7d0b !important;
+    border-color: #fa7d0b !important;
+  }
+
+div#navbarSupportedContent {
+    font-size: 20px !important;
+}
+.container{ 
+    background: #fff; 
+    margin-top: 50px;
+    
+}
+
+.index{
+    -webkit-box-shadow: -8px -8px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px -8px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -8px -8px 5px 0px rgba(0,0,0,0.75);
+}
+
+h3 { font-size: 3em;}
+
+.offset-md-3,
+.col-md-4 {
+    margin-bottom: 10px !important; 
+}
+
+
+.container.index {
+    min-height: 500px;
+}
+/*Create Users Form*/
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+
+
+
+/*excersize li item style*/
+.exercisedata{ padding-top: 5px;}
+.formday_part label{ line-height: 3;}
+.excersizeitem ul li {
+  border: 1px solid #ddd;
+  margin-top: -1px; 
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  position: relative;
+}
+
+.excersizeitem ul li:hover {
+  background-color: #eee;
+}
+
+.excersizeitem .close {
+  cursor: pointer;
+  transform: translate(0%, 30%);
+}
+.excersizeitem{ margin: 0 auto; }
+.excersizeitem .close:hover {background: #bbb;}
+ul.excersizeitem li {
+    position: relative;
+}
+
+ul.excersizeitem li>span {
+    display: block;
+}
+.excersizeitem li .form-control{ width: 93% !important;}
+
+.bodypart_title{ font-size: 22px; font-weight: bold; margin-left: 15px;}
+.exc .bodypart_title{ font-size: 18px;}
+.list-group-item{ margin-bottom: 20px; }
+label{ font-weight: bold !important;}
+.formday_part input[name="item"]{ width: 65% !important;}
+.formday_part label,
+.formday_part input 
+{
+  float: left;
+  margin-right: 10px ;
+}
+.formday_part input[type="button"]
+{
+  margin-left: 15px;
+}
+.center{ margin: 0 auto; }
+.formday_part .form-group:first-child{ height: 40px;}
+
+.table thead { 
+    background-color: lavender;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    font-size: 1.4em;
+}
+.table tbody{font-size: 1.3em;}
+h2.well {
+    font-size: 1.6em;
+}
+.table th{ font-weight: bold !important; }
+.form-group{ clear: both; }
+.list-group{ width: 100%; margin-top: 20px; }
+
+input.chosen-search-input.default, li.search-choice { font-size: 15px !important; }
+.row label, 
+.exc label { 
+    font-size: 15px; 
+}
+.plan-container{ margin-top: 10px !important;}
+
+.col-md-6 a {
+    display: block;
+    width: 60% !important;
+}
+
+
+.homerow {
+    margin-top: 50px;
+}
+
+.frame {
+    margin-bottom: 20px;
+}
+
+button.btn-lg.btn-outline-secondary {
+    width: 100% !important;
+    cursor: pointer;
+}
+.marginauto{margin: 0 auto;}
+
+
+/*create new user button*/
+button.btn.btn-lg.btn-info {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+form#form{ width: 80% !important;  margin: 0 auto; }
+
+.exc .formday_part input[name="item"]{ width: 50% !important}
+.exc .col-md-8{ margin: 0 auto;}
+
+
+
+
+
+/*----responsive-design-----*/
+@media only screen and (max-width: 1366px) and (min-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {
+    
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 768px) and (min-width: 640px) {
+
+}
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) and (max-width: 1368px) {
+
+
+}
+
+
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    
+}
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    
+
+  .formday_part label, .formday_part input {
+      clear: left;
+      margin-right: 0;
+  }
+  .exc .formday_part input[name="item"], .formday_part input[name="item"]  {
+    width: 100% !important;
+  }
+
+
+  .formday_part input[type="button"] {
+    margin-left: 0px; 
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .exc { margin-top: 0px; }
+
+  form#form{ width: 100% !important;  margin: 0 auto; }
+
+  
+  .table-striped th:nth-child(1),
+  .users th:nth-child(3),
+  .users td:nth-child(1),
+  .users td:nth-child(3)
+  {
+    display: none;
+  }
+
+  #logo{ width: 205px !important;}
+
+
+}
+
+
+@media (max-width: 640px) {
+
+   
+}
+
+
+@media (max-width: 480px) {
+
+        
+
+}
+
+
+
+
+
+
+
+

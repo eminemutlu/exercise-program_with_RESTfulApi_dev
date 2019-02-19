@@ -1,0 +1,37 @@
+
+ErrorDocument 404 http://localhost:81/vgym_dev/
+
+
+RewriteEngine on
+
+Options +FollowSymLinks
+RewriteEngine on
+
+
+
+
+RewriteRule ^home/$ index.php?page=home
+
+RewriteRule ^newuser/$ index.php?page=newuser
+
+RewriteRule ^allusers/$ index.php?page=allusers
+
+RewriteRule ^createplan/$ index.php?page=createplan
+
+RewriteRule ^allplans/$ index.php?page=allplans
+
+RewriteRule ^exercise/$ index.php?page=exercise
+
+
+
+RewriteRule ^edituser/([0-9]+)/$ index.php?page=edituser&id=$1
+RewriteRule ^editplan/([0-9]+)/$ index.php?page=editplan&id=$1
+
+
+
+
+RewriteRule ^home$ index.php
+
+
+
+
